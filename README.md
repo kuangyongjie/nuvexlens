@@ -4,135 +4,133 @@
 
 # NuvexLens
 
-**专业级智能图表分析平台**
+**Professional Smart Charting Platform**
 
-*高性能绘图引擎，支持秒级回放与多维指标分析*
+*High-performance charting engine with second-level replay and multi-dimensional indicator analysis*
 
-[![Platform](https://img.shields.io/badge/平台-Web-blue?style=flat-square)](https://nuvexlens.com)
-[![Version](https://img.shields.io/badge/版本-v2.0-green?style=flat-square)](https://nuvexlens.com)
-[![Language](https://img.shields.io/badge/语言-EN%20%7C%20中文%20%7C%20日本語-orange?style=flat-square)](https://nuvexlens.com)
+[![Platform](https://img.shields.io/badge/Platform-Web-blue?style=flat-square)](https://nuvexlens.com)
+[![Version](https://img.shields.io/badge/Version-v2.0-green?style=flat-square)](https://nuvexlens.com)
+[![Language](https://img.shields.io/badge/Language-EN%20%7C%20中文%20%7C%20日本語-orange?style=flat-square)](https://nuvexlens.com)
 
-[官方网站](https://nuvexlens.com) · [功能介绍](#功能介绍) · [使用指南](#使用指南) · [常见问题](#常见问题)
+[Website](https://nuvexlens.com) · [Features](#features) · [User Guide](#user-guide) · [FAQ](#faq)
 
 </div>
 
 ---
 
-## 声明
+## Disclaimer
 
-本项目基于 [TradingView Charting Library](https://www.tradingview.com/charting-library/) 进行二次开发。感谢 TradingView 提供的优秀图表库基础代码。
+This project is developed based on [TradingView Charting Library](https://www.tradingview.com/charting-library/). Thanks to TradingView for providing the excellent charting library foundation.
 
-**本项目为私有商业软件，非开源项目。** 未经授权，禁止复制、分发或修改。
+**This is a proprietary commercial software, NOT open source.** Unauthorized copying, distribution, or modification is prohibited.
 
 ---
 
-## 演示视频
+## Demo Video
 
 <div align="center">
 
-[![NuvexLens Demo](https://img.youtube.com/vi/qEILoJfBynw/maxresdefault.jpg)](https://www.youtube.com/watch?v=qEILoJfBynw)
-
-*点击图片观看演示视频*
+[**Watch Demo Video on YouTube**](https://www.youtube.com/watch?v=qEILoJfBynw)
 
 </div>
 
 ---
 
-## 语言支持
+## Language Support
 
-NuvexLens 支持以下三种语言，默认以英语作为首选语言：
+NuvexLens supports the following languages, with English as the default:
 
-| 语言 | Language | 状态 |
-|:----:|:--------:|:----:|
-| English | 英语 | 默认首页 |
-| 简体中文 | Chinese (Simplified) | 支持 |
-| 日本語 | Japanese | 支持 |
+| Language | Status |
+|:--------:|:------:|
+| English | Default |
+| 简体中文 (Chinese) | Supported |
+| 日本語 (Japanese) | Supported |
 
 ---
 
-## 功能介绍
+## Features
 
-NuvexLens 专为交易员与学习者打造，提供专业级图表分析工具，助力您的交易决策。
+NuvexLens is built for traders and learners, providing professional-grade charting tools to empower your trading decisions.
 
 ### Smart K-Line Pro
 
-专业级 K 线图表，支持毫秒级数据推送与多屏联动。
+Professional K-line charts with millisecond-level data push and multi-screen synchronization.
 
-- **多达 10 个同步图表** - 查看任何工具在实时市场中的精确移动
-- **毫秒级实时数据** - 确保交易决策快人一步
-- **全市场覆盖** - A 股、港股、美股、加密货币一站式查看
+- **Up to 10 synchronized charts** - View precise movements of any instrument in real-time markets
+- **Millisecond-level real-time data** - Stay ahead in your trading decisions
+- **Global market coverage** - A-shares, HK stocks, US stocks, and cryptocurrencies in one place
 
 ### Replay Trainer
 
-沉浸式双盲训练系统，随时回溯历史行情进行复盘。
+Immersive blind training system for reviewing historical market data anytime.
 
-- **历史回放** - 选择任意时间点开始回放训练
-- **毫秒级滴定精度** - 消除回放滞后和未来数据泄露
-- **无偏见双盲模式** - 隐藏标的和日期，培养纯粹技术分析直觉
-- **多倍速控制** - 支持 1x / 2x / 5x / 10x 速度播放
+- **Historical replay** - Start replay training from any point in time
+- **Millisecond precision** - Eliminate replay lag and future data leakage
+- **Unbiased blind mode** - Hide symbols and dates to develop pure technical analysis intuition
+- **Multi-speed control** - Support 1x / 2x / 5x / 10x playback speed
 
 ### Alpha Indicators
 
-内置 100+ 核心技术指标，支持自定义脚本编写。
+100+ built-in core technical indicators with custom scripting support.
 
-- **无限量指标叠加** - 为每个图表添加任意数量指标
-- **自定义脚本** - 创建并上传您自己的指标策略
-- **自动捕捉信号** - 系统自动跳转至关键点位和形态突破
-
----
-
-## 支持市场
-
-| 市场 | 覆盖范围 | 数据类型 |
-|:----:|:--------:|:--------:|
-| A 股 | 沪深两市全覆盖 | 实时 + 历史 |
-| 港股 | 港交所全部标的 | 实时 + 历史 |
-| 美股 | 纳斯达克 / 纽交所 | 实时 + 历史 |
-| 加密货币 | 主流交易对 | 实时 + 历史 |
-| 期货 | 国内主流期货品种 | 实时 + 历史 |
+- **Unlimited indicator stacking** - Add any number of indicators to each chart
+- **Custom scripts** - Create and upload your own indicator strategies
+- **Auto signal capture** - System automatically jumps to key levels and pattern breakouts
 
 ---
 
-## 为什么选择 NuvexLens
+## Supported Markets
+
+| Market | Coverage | Data Type |
+|:------:|:--------:|:---------:|
+| A-Shares | Shanghai & Shenzhen | Real-time + Historical |
+| HK Stocks | HKEX Full Coverage | Real-time + Historical |
+| US Stocks | NASDAQ / NYSE | Real-time + Historical |
+| Crypto | Major Trading Pairs | Real-time + Historical |
+| Futures | Domestic Major Futures | Real-time + Historical |
+
+---
+
+## Why NuvexLens
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 专业级性能
+### Professional Performance
 
-- 毫秒级数据更新
-- WebSocket 实时推送
-- 多屏联动无延迟
+- Millisecond-level data updates
+- WebSocket real-time push
+- Multi-screen sync without delay
 
 </td>
 <td width="50%" valign="top">
 
-### 无偏见训练
+### Unbiased Training
 
-- 双盲隐藏模式
-- 消除后视偏差
-- 培养交易直觉
+- Blind hidden mode
+- Eliminate hindsight bias
+- Develop trading intuition
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 多端支持
+### Multi-Platform Support
 
-- 桌面浏览器优化
-- 移动端适配
-- 跨设备数据同步
+- Desktop browser optimized
+- Mobile responsive
+- Cross-device data sync
 
 </td>
 <td width="50%" valign="top">
 
-### 账户安全
+### Account Security
 
-- 云端自选股同步
-- 图表模板保存
-- 安全登录认证
+- Cloud watchlist sync
+- Chart template saving
+- Secure authentication
 
 </td>
 </tr>
@@ -140,73 +138,73 @@ NuvexLens 专为交易员与学习者打造，提供专业级图表分析工具�
 
 ---
 
-## 使用指南
+## User Guide
 
-### 快速开始
+### Quick Start
 
-1. 访问 [nuvexlens.com](https://nuvexlens.com)
-2. 注册账号并登录
-3. 在搜索框输入股票代码（如 `000001` 或 `BTCUSDT`）
-4. 开始您的图表分析之旅
+1. Visit [nuvexlens.com](https://nuvexlens.com)
+2. Register and log in
+3. Enter a stock code in the search box (e.g., `000001` or `BTCUSDT`)
+4. Start your charting analysis journey
 
-### 回放训练
+### Replay Training
 
-1. 点击工具栏中的「回放」按钮
-2. 选择要回放的时间点
-3. 使用播放控制按钮控制回放进度
-4. 在回放中进行模拟交易练习
+1. Click the "Replay" button in the toolbar
+2. Select the time point to replay
+3. Use playback controls to manage replay progress
+4. Practice simulated trading during replay
 
-### 添加指标
+### Adding Indicators
 
-1. 点击「指标」按钮打开指标面板
-2. 搜索或浏览可用指标
-3. 点击指标名称添加到图表
-4. 双击指标调整参数设置
-
----
-
-## 常见问题
-
-<details>
-<summary><b>NuvexLens 支持哪些浏览器？</b></summary>
-<br>
-推荐使用 Chrome、Edge、Safari 等现代浏览器的最新版本，以获得最佳体验。
-</details>
-
-<details>
-<summary><b>数据更新频率是多少？</b></summary>
-<br>
-实时行情数据通过 WebSocket 推送，更新频率可达毫秒级。历史数据每日更新。
-</details>
-
-<details>
-<summary><b>可以在手机上使用吗？</b></summary>
-<br>
-是的，NuvexLens 支持移动端浏览器访问，并针对触屏操作进行了优化。
-</details>
-
-<details>
-<summary><b>如何保存我的图表设置？</b></summary>
-<br>
-登录账号后，您的图表模板、自选股和偏好设置会自动同步到云端。
-</details>
+1. Click the "Indicators" button to open the panel
+2. Search or browse available indicators
+3. Click the indicator name to add it to the chart
+4. Double-click the indicator to adjust settings
 
 ---
 
-## 联系我们
+## FAQ
 
-如有任何问题或建议，欢迎通过以下方式联系我们：
+<details>
+<summary><b>What browsers does NuvexLens support?</b></summary>
+<br>
+We recommend using the latest versions of modern browsers such as Chrome, Edge, or Safari for the best experience.
+</details>
 
-- 官网：[nuvexlens.com](https://nuvexlens.com)
-- 邮箱：support@nuvexlens.com
+<details>
+<summary><b>How often is the data updated?</b></summary>
+<br>
+Real-time market data is pushed via WebSocket with millisecond-level update frequency. Historical data is updated daily.
+</details>
+
+<details>
+<summary><b>Can I use it on mobile?</b></summary>
+<br>
+Yes, NuvexLens supports mobile browser access and is optimized for touch screen operation.
+</details>
+
+<details>
+<summary><b>How do I save my chart settings?</b></summary>
+<br>
+After logging in, your chart templates, watchlists, and preferences will automatically sync to the cloud.
+</details>
+
+---
+
+## Contact Us
+
+For any questions or suggestions, please contact us:
+
+- Website: [nuvexlens.com](https://nuvexlens.com)
+- Email: support@nuvexlens.com
 
 ---
 
 <div align="center">
 
-**NuvexLens** — 专为交易员与学习者打造
+**NuvexLens** — Built for Traders and Learners
 
-自 2026 年起赋能专业交易
+Empowering Professional Trading Since 2026
 
 ---
 
