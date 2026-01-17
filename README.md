@@ -10,68 +10,96 @@
 
 [![Platform](https://img.shields.io/badge/平台-Web-blue?style=flat-square)](https://nuvexlens.com)
 [![Version](https://img.shields.io/badge/版本-v2.0-green?style=flat-square)](https://nuvexlens.com)
-[![Language](https://img.shields.io/badge/语言-中文%20%7C%20English-orange?style=flat-square)](https://nuvexlens.com)
+[![Language](https://img.shields.io/badge/语言-EN%20%7C%20中文%20%7C%20日本語-orange?style=flat-square)](https://nuvexlens.com)
 
-[官方网站](https://nuvexlens.com) · [功能介绍](#-功能介绍) · [使用指南](#-使用指南) · [常见问题](#-常见问题)
-
----
-
-<img src="https://raw.githubusercontent.com/kuangyongjie/nuvexlens/main/images/preview.png" width="800">
+[官方网站](https://nuvexlens.com) · [功能介绍](#功能介绍) · [使用指南](#使用指南) · [常见问题](#常见问题)
 
 </div>
 
 ---
 
-## ✨ 功能介绍
+## 声明
+
+本项目基于 [TradingView Charting Library](https://www.tradingview.com/charting-library/) 进行二次开发。感谢 TradingView 提供的优秀图表库基础代码。
+
+**本项目为私有商业软件，非开源项目。** 未经授权，禁止复制、分发或修改。
+
+---
+
+## 演示视频
+
+<div align="center">
+
+[![NuvexLens Demo](https://img.youtube.com/vi/qEILoJfBynw/maxresdefault.jpg)](https://www.youtube.com/watch?v=qEILoJfBynw)
+
+*点击图片观看演示视频*
+
+</div>
+
+---
+
+## 语言支持
+
+NuvexLens 支持以下三种语言，默认以英语作为首选语言：
+
+| 语言 | Language | 状态 |
+|:----:|:--------:|:----:|
+| English | 英语 | 默认首页 |
+| 简体中文 | Chinese (Simplified) | 支持 |
+| 日本語 | Japanese | 支持 |
+
+---
+
+## 功能介绍
 
 NuvexLens 专为交易员与学习者打造，提供专业级图表分析工具，助力您的交易决策。
 
-### 📊 Smart K-Line Pro
+### Smart K-Line Pro
 
 专业级 K 线图表，支持毫秒级数据推送与多屏联动。
 
-- 🖥️ **多达 10 个同步图表** - 查看任何工具在实时市场中的精确移动
-- ⚡ **毫秒级实时数据** - 确保交易决策快人一步
-- 🌍 **全市场覆盖** - A 股、港股、美股、加密货币一站式查看
+- **多达 10 个同步图表** - 查看任何工具在实时市场中的精确移动
+- **毫秒级实时数据** - 确保交易决策快人一步
+- **全市场覆盖** - A 股、港股、美股、加密货币一站式查看
 
-### 🔄 Replay Trainer
+### Replay Trainer
 
 沉浸式双盲训练系统，随时回溯历史行情进行复盘。
 
-- ⏪ **历史回放** - 选择任意时间点开始回放训练
-- 🎯 **毫秒级滴定精度** - 消除回放滞后和未来数据泄露
-- 🎭 **无偏见双盲模式** - 隐藏标的和日期，培养纯粹技术分析直觉
-- ⏱️ **多倍速控制** - 支持 1x / 2x / 5x / 10x 速度播放
+- **历史回放** - 选择任意时间点开始回放训练
+- **毫秒级滴定精度** - 消除回放滞后和未来数据泄露
+- **无偏见双盲模式** - 隐藏标的和日期，培养纯粹技术分析直觉
+- **多倍速控制** - 支持 1x / 2x / 5x / 10x 速度播放
 
-### 📈 Alpha Indicators
+### Alpha Indicators
 
 内置 100+ 核心技术指标，支持自定义脚本编写。
 
-- 🔢 **无限量指标叠加** - 为每个图表添加任意数量指标
-- ✍️ **自定义脚本** - 创建并上传您自己的指标策略
-- 🔔 **自动捕捉信号** - 系统自动跳转至关键点位和形态突破
+- **无限量指标叠加** - 为每个图表添加任意数量指标
+- **自定义脚本** - 创建并上传您自己的指标策略
+- **自动捕捉信号** - 系统自动跳转至关键点位和形态突破
 
 ---
 
-## 🌐 支持市场
+## 支持市场
 
 | 市场 | 覆盖范围 | 数据类型 |
 |:----:|:--------:|:--------:|
-| 🇨🇳 **A 股** | 沪深两市全覆盖 | 实时 + 历史 |
-| 🇭🇰 **港股** | 港交所全部标的 | 实时 + 历史 |
-| 🇺🇸 **美股** | 纳斯达克 / 纽交所 | 实时 + 历史 |
-| ₿ **加密货币** | 主流交易对 | 实时 + 历史 |
-| 📊 **期货** | 国内主流期货品种 | 实时 + 历史 |
+| A 股 | 沪深两市全覆盖 | 实时 + 历史 |
+| 港股 | 港交所全部标的 | 实时 + 历史 |
+| 美股 | 纳斯达克 / 纽交所 | 实时 + 历史 |
+| 加密货币 | 主流交易对 | 实时 + 历史 |
+| 期货 | 国内主流期货品种 | 实时 + 历史 |
 
 ---
 
-## 🎯 为什么选择 NuvexLens
+## 为什么选择 NuvexLens
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🚀 专业级性能
+### 专业级性能
 
 - 毫秒级数据更新
 - WebSocket 实时推送
@@ -80,7 +108,7 @@ NuvexLens 专为交易员与学习者打造，提供专业级图表分析工具�
 </td>
 <td width="50%" valign="top">
 
-### 🛡️ 无偏见训练
+### 无偏见训练
 
 - 双盲隐藏模式
 - 消除后视偏差
@@ -91,7 +119,7 @@ NuvexLens 专为交易员与学习者打造，提供专业级图表分析工具�
 <tr>
 <td width="50%" valign="top">
 
-### 📱 多端支持
+### 多端支持
 
 - 桌面浏览器优化
 - 移动端适配
@@ -100,7 +128,7 @@ NuvexLens 专为交易员与学习者打造，提供专业级图表分析工具�
 </td>
 <td width="50%" valign="top">
 
-### 🔒 账户安全
+### 账户安全
 
 - 云端自选股同步
 - 图表模板保存
@@ -112,7 +140,7 @@ NuvexLens 专为交易员与学习者打造，提供专业级图表分析工具�
 
 ---
 
-## 📖 使用指南
+## 使用指南
 
 ### 快速开始
 
@@ -137,7 +165,7 @@ NuvexLens 专为交易员与学习者打造，提供专业级图表分析工具�
 
 ---
 
-## ❓ 常见问题
+## 常见问题
 
 <details>
 <summary><b>NuvexLens 支持哪些浏览器？</b></summary>
@@ -165,12 +193,12 @@ NuvexLens 专为交易员与学习者打造，提供专业级图表分析工具�
 
 ---
 
-## 📬 联系我们
+## 联系我们
 
 如有任何问题或建议，欢迎通过以下方式联系我们：
 
-- 🌐 官网：[nuvexlens.com](https://nuvexlens.com)
-- 📧 邮箱：support@nuvexlens.com
+- 官网：[nuvexlens.com](https://nuvexlens.com)
+- 邮箱：support@nuvexlens.com
 
 ---
 
@@ -183,5 +211,7 @@ NuvexLens 专为交易员与学习者打造，提供专业级图表分析工具�
 ---
 
 Copyright © 2024-2026 NuvexLens. All Rights Reserved.
+
+*Based on TradingView Charting Library*
 
 </div>
