@@ -1,5 +1,7 @@
 <div align="center">
 
+[English](README.md) | [简体中文](README_ZH.md) | [日本語](README_JA.md)
+
 <img src="images/logo.svg" width="120" height="120">
 
 # NuvexLens
@@ -10,7 +12,6 @@
 
 [![Platform](https://img.shields.io/badge/Platform-Web-blue?style=flat-square)](https://nuvexlens.com)
 [![Version](https://img.shields.io/badge/Version-v2.0-green?style=flat-square)](https://nuvexlens.com)
-[![Language](https://img.shields.io/badge/Language-EN%20%7C%20中文%20%7C%20日本語-orange?style=flat-square)](https://nuvexlens.com)
 
 [Website](https://nuvexlens.com) · [Features](#features) · [User Guide](#user-guide) · [FAQ](#faq)
 
@@ -28,23 +29,7 @@ This project is developed based on [TradingView Charting Library](https://www.tr
 
 ## Demo Video
 
-<div align="center">
-
 [**Watch Demo Video on YouTube**](https://www.youtube.com/watch?v=qEILoJfBynw)
-
-</div>
-
----
-
-## Language Support
-
-NuvexLens supports the following languages, with English as the default:
-
-| Language | Status |
-|:--------:|:------:|
-| English | Default |
-| 简体中文 (Chinese) | Supported |
-| 日本語 (Japanese) | Supported |
 
 ---
 
@@ -93,48 +78,17 @@ Immersive blind training system for reviewing historical market data anytime.
 
 ## Why NuvexLens
 
-<table>
-<tr>
-<td width="50%" valign="top">
+| Professional Performance | Unbiased Training |
+|:------------------------|:------------------|
+| Millisecond-level data updates | Blind hidden mode |
+| WebSocket real-time push | Eliminate hindsight bias |
+| Multi-screen sync without delay | Develop trading intuition |
 
-### Professional Performance
-
-- Millisecond-level data updates
-- WebSocket real-time push
-- Multi-screen sync without delay
-
-</td>
-<td width="50%" valign="top">
-
-### Unbiased Training
-
-- Blind hidden mode
-- Eliminate hindsight bias
-- Develop trading intuition
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### Multi-Platform Support
-
-- Desktop browser optimized
-- Mobile responsive
-- Cross-device data sync
-
-</td>
-<td width="50%" valign="top">
-
-### Account Security
-
-- Cloud watchlist sync
-- Chart template saving
-- Secure authentication
-
-</td>
-</tr>
-</table>
+| Multi-Platform Support | Account Security |
+|:----------------------|:-----------------|
+| Desktop browser optimized | Cloud watchlist sync |
+| Mobile responsive | Chart template saving |
+| Cross-device data sync | Secure authentication |
 
 ---
 
@@ -193,8 +147,6 @@ After logging in, your chart templates, watchlists, and preferences will automat
 
 ## Contact Us
 
-For any questions or suggestions, please contact us:
-
 - Website: [nuvexlens.com](https://nuvexlens.com)
 - Email: support@nuvexlens.com
 
@@ -205,8 +157,6 @@ For any questions or suggestions, please contact us:
 **NuvexLens** — Built for Traders and Learners
 
 Empowering Professional Trading Since 2026
-
----
 
 Copyright © 2024-2026 NuvexLens. All Rights Reserved.
 
