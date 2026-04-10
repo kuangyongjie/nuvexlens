@@ -21,7 +21,7 @@
 
 ## 声明
 
-本项目基于 [TradingView Charting Library](https://www.tradingview.com/charting-library/) 进行二次开发。感谢 TradingView 提供的优秀图表库基础代码。
+
 
 **本项目为私有商业软件，非开源项目。** 未经授权，禁止复制、分发或修改。
 
