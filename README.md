@@ -21,7 +21,7 @@
 
 ## Disclaimer
 
-This project is developed based on [TradingView Charting Library](https://www.tradingview.com/charting-library/). Thanks to TradingView for providing the excellent charting library foundation.
+
 
 **This is a proprietary commercial software, NOT open source.** Unauthorized copying, distribution, or modification is prohibited.
 
