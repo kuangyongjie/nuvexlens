@@ -21,7 +21,7 @@
 
 ## 免責事項
 
-本プロジェクトは [TradingView Charting Library](https://www.tradingview.com/charting-library/) をベースに開発されています。優れたチャートライブラリを提供してくださった TradingView に感謝いたします。
+
 
 **本プロジェクトは商用ソフトウェアであり、オープンソースではありません。** 無断での複製、配布、改変は禁止されています。
 
