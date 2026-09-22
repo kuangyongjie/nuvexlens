@@ -20,9 +20,11 @@
 
 ---
 
-## Disclaimer
+## Disclaimer & Acknowledgements
 
-**This is a proprietary commercial software and NOT an open-source project.** Unauthorized copying, distribution, decompilation, or commercial resale is strictly prohibited.
+- **Proprietary Commercial Software**: **This is a proprietary commercial software and NOT an open-source project.** Unauthorized copying, distribution, decompilation, or commercial resale is strictly prohibited.
+- **Charting Engine & Components**: The charting engine of this project is custom-developed based on the **TradingView** Charting Library, with embedded official TradingView components for professional financial data visualization.
+- **Acknowledgements**: We extend our sincere gratitude to the **[TradingView](https://www.tradingview.com/)** team for providing the global fintech developer community with such an exceptional, high-performance charting foundation and product ecosystem.
 
 ---
 
