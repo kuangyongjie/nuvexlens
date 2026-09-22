@@ -14,7 +14,7 @@
 [![Version](https://img.shields.io/badge/版本-v3.3-green?style=flat-square)](https://nuvexlens.com)
 [![License](https://img.shields.io/badge/授权-Commercial-orange?style=flat-square)](https://nuvexlens.com)
 
-[官方首页](https://nuvexlens.com) · [图表](https://chart.nuvexlens.com/) · [信号中心](https://chart.nuvexlens.com/signals/hub/strategy) · [行情](https://nuvexlens.com/quotes/) · [筛选器](https://nuvexlens.com/screener/) · [深度分析](https://chart.nuvexlens.com/signals/analysis) · [文档中心](https://docs.nuvexlens.com)
+[官方首页](https://nuvexlens.com) · [图表](https://chart.nuvexlens.com/) · [信号中心](https://chart.nuvexlens.com/signals/hub/strategy) · [行情](https://nuvexlens.com/quotes/) · [筛选器](https://nuvexlens.com/screener/) · [深度分析](https://chart.nuvexlens.com/signals/analysis) · [指标策略库](https://docs.nuvexlens.com/indicator-strategies/) · [文档中心](https://docs.nuvexlens.com)
 
 </div>
 
@@ -48,12 +48,14 @@ NuvexLens 专为专业交易员、量化投资人与金融学习者打造。系�
      |                 |                   |                 |                 |
      +-----------------+-------------------+-----------------+-----------------+
                                            |
-                   +-----------------------+-----------------------+
-                   |                                               |
-           [ 知识库与文档中心 ]                            [ 新闻雷达 TrendRadar ]
-             docs.nuvexlens.com                              trendradar.nuvexlens.com
-             - 四语系统化教程                                - 7x24 全球财经快讯
-             - 精选指标库与实战解析                          - 多源异动舆情监测
+         +---------------------------------+---------------------------------+
+         |                                 |                                 |
+ [ 指标与策略精选库 ]              [ 知识库与文档中心 ]              [ 新闻雷达 TrendRadar ]
+   docs.nuvexlens.com/               docs.nuvexlens.com                trendradar.nuvexlens.com
+   indicator-strategies/             - 四语系统化教程                  - 7x24 全球财经快讯
+   - 动态飙升与好评榜单              - 投研知识体系架构                - 多源异动舆情监测
+   - 独家统计与实战指南              - 快速入门与快捷键
+   - 社区开源合规收录
 ```
 
 ---
@@ -67,7 +69,8 @@ NuvexLens 专为专业交易员、量化投资人与金融学习者打造。系�
 | **全球行情**<br>Quotes | 全球资产报价矩阵、热力图与微观情绪仪表盘 | [直达行情](https://nuvexlens.com/quotes/) | 全球大盘指数列表、[行业板块热力图](https://nuvexlens.com/quotes/heatmap)、[市场微观情绪仪表盘](https://nuvexlens.com/quotes/sentiment)、[链上合约数据](https://nuvexlens.com/quotes/onchain-contracts) |
 | **多市场筛选器**<br>Screener | 跨 A股/港股/美股/加密资产多维条件选股器 | [直达筛选器](https://nuvexlens.com/screener/) | 覆盖全市场标的、财务基本面与技术指标组合筛选、预设经典策略一键选股、结果一键联动图表与分析 |
 | **深度分析**<br>Analysis | 标的代码直达一站式全景投研与技术共识评分 | [直达深度分析](https://chart.nuvexlens.com/signals/analysis) | 多时间框架综合技术评级、量化诊断打分、关键阻力支撑自动测算、Serenity 产业链瓶颈评分 |
-| **文档与知识库**<br>Help Center | 多语言交易教程、指标策略精选库与系统指南 | [直达文档中心](https://docs.nuvexlens.com)<br>[直达帮助中心](https://help.nuvexlens.com) | 中/繁/英/日四语支持、系统化量化与交易工作流、指标策略精选库（Indicator Library）、快速开始与 FAQ |
+| **精选指标与策略库**<br>Indicator & Strategy | 社区开源与独家量化指标库、动态排行榜与实战指南 | [直达指标策略库](https://docs.nuvexlens.com/indicator-strategies/) | 多维热度与飙升榜单、独家多周期实战统计、分类逻辑索引、Pine源码Diff对比、[自研增强指标](https://docs.nuvexlens.com/indicator-strategies/closed-source/)、[脚本使用教学](https://docs.nuvexlens.com/indicator-strategies/script-usage/) |
+| **文档与知识库**<br>Help Center | 多语言交易教程、知识库与系统指南 | [直达文档中心](https://docs.nuvexlens.com)<br>[直达帮助中心](https://help.nuvexlens.com) | 中/繁/英/日四语支持、系统化量化与交易工作流、快速开始与 FAQ |
 | **新闻雷达**<br>TrendRadar | 7x24 全球财经要闻、多源舆情与异动公告雷达 | [直达新闻雷达](https://trendradar.nuvexlens.com/) | 实时财经快讯聚合、智能异动提炼、多源情绪与宏观日历 |
 
 ---
@@ -132,17 +135,34 @@ NuvexLens 专为专业交易员、量化投资人与金融学习者打造。系�
   - **智能关键点位研判**：基于成交量分布 (Volume Profile) 与斐波那契模型，自动标识核心支撑位、阻力位与波动区间。
   - **Serenity 产业链与瓶颈评分**：深入剖析上下游供应链关系、产业卡脖子环节定位与核心技术护城河评分。
 
-### 6. 文档中心与知识库 (Help Center & Docs)
+### 6. 精选指标与策略库 (Indicator & Strategy Library)
+- **直达链接**：[https://docs.nuvexlens.com/indicator-strategies/](https://docs.nuvexlens.com/indicator-strategies/)
+- **核心子模块与入口**：
+  - **指标库总览与分类索引**：[https://docs.nuvexlens.com/indicator-strategies/](https://docs.nuvexlens.com/indicator-strategies/)
+  - **动态热度与飙升榜单**：[https://docs.nuvexlens.com/indicator-strategies/rankings/trending/](https://docs.nuvexlens.com/indicator-strategies/rankings/trending/)
+  - **自研与独家增强指标 (闭源精选)**：[https://docs.nuvexlens.com/indicator-strategies/closed-source/](https://docs.nuvexlens.com/indicator-strategies/closed-source/)
+  - **脚本使用与参数配置指南**：[https://docs.nuvexlens.com/indicator-strategies/script-usage/](https://docs.nuvexlens.com/indicator-strategies/script-usage/)
+- **核心特色与独家统计**：
+  - **独家热度与趋势动态统计**：持续跟踪量化指标在全网社区的使用热度与增长斜率，提供涵盖“飙升榜 (Trending)”、“顶尖好评 (Top Rated)”与“编辑精选 (Editor's Picks)”的多维动态榜单，结合独家活跃度算法过滤失效低质脚本，帮交易员第一时间捕获高价值量化逻辑。
+  - **指标实战运用的深度解析**：打破单一的代码堆砌，每款指标均配备由浅入深的**实战技法拆解**——包括不同行情（单边趋势/震荡整理）下的参数自适应建议、多时间周期共振验证机制、虚假突破过滤规则以及仓位止盈止损配合指南。
+  - **全景逻辑分类与多维检索**：系统化归类为趋势跟踪 (Trend)、动量摆荡 (Momentum)、成交量分布 (Volume Profile)、波动率范围 (Volatility) 与智能资金市场结构 (SMC / 缠论自动画线) 等核心领域，支持按交易流派精准定位。
+  - **版本演进轨迹与源码 Diff 对比**：支持在线查看指标历史版本演进与代码变更对比 (Diff)，清晰洞察算法改良脉络；支持 Pine 脚本源码一键复制与快速导入图表引擎。
+  - **自研高阶增强与经典指标融合**：除社区经典算法外，平台自主研发了多款闭源增强指标，针对国内与国际市场特征深度重构，提供更敏锐的主力异动捕获与买卖点指引。
+- **版权合规与致谢声明**：
+  - **来源与合规说明**：本模块收录的开源指标与策略脚本均源自 **TradingView 开源社区**，严格遵循 TradingView 社区发行规范（House Rules）以及原作者所声明的开源许可协议（包括 MPL 2.0、Apache 2.0、MIT、GPL 等）进行多语言本土化翻译、算法原理整理与交互式呈现。
+  - **尊重原创知识产权**：每个指标详情页均清晰标明原作者姓名/社区主页、TradingView 官方原始发布链接、原始版本号及对应开源协议，完整保留原作者署名权。
+  - **致谢作者与平台**：在此向无私奉献开源智慧成果的广大社区 Pine 脚本作者、量化开拓者致以崇高的敬意，并由衷致谢 **[TradingView](https://www.tradingview.com/)** 平台为全球金融分析与程序化交易搭建的开放、协作、繁荣的创新社区生态。
+
+### 7. 文档中心与知识库 (Help Center & Docs)
 - **直达链接**：
   - 文档中心：[https://docs.nuvexlens.com](https://docs.nuvexlens.com)
   - 帮助中心：[https://help.nuvexlens.com](https://help.nuvexlens.com)
 - **核心功能**：
   - **多语言全覆盖**：支持简体中文、繁体中文、English、日本語，提供无障碍国际化学习体验。
   - **系统化交易进阶教程**：从新手入门配置、数据源原理解析，到高阶指标编写、量化策略构建与复盘心法。
-  - **指标策略精选库 (Indicator Library)**：精选趋势、动量、成交量、波动率、市场结构等大类脚本，提供详细算法原理、参数调优指南与实战案例。
-  - **使用指南与 FAQ**：覆盖账号权益、多端设备同步、快捷键操作手册与常见问题实时解答。
+  - **知识体系与操作手册**：覆盖账号体系、多端设备云同步、快捷键操作手册与常见问题实时解答。
 
-### 7. 新闻雷达 (TrendRadar)
+### 8. 新闻雷达 (TrendRadar)
 - **直达链接**：[https://trendradar.nuvexlens.com/](https://trendradar.nuvexlens.com/)
 - **核心功能**：
   - **7x24 小时全球财经要闻聚合**：直连全球主流财经资讯与行业信源，毫秒级推送快讯。
@@ -174,9 +194,9 @@ NuvexLens 专为专业交易员、量化投资人与金融学习者打造。系�
 3. **信号核对与策略验证**：
    - 进入 [信号中心](https://chart.nuvexlens.com/signals/hub/strategy) 检查目标标的是否命中近期高置信度量化推荐策略，并参考历史胜率表现。
    - 查看 [机构持仓共识](https://chart.nuvexlens.com/signals/hub/holdings)，确认顶级机构或聪明资金的持仓态度。
-4. **图表深度研判**：
+4. **图表深度研判与指标调用**：
    - 点击标的直达 [智能图表](https://chart.nuvexlens.com/)，启用多周期多图联动观察中长线趋势与分时买卖点。
-   - 叠加筹码分布与独家 VIP 指标，确定止盈止损点位。
+   - 结合 [指标策略精选库](https://docs.nuvexlens.com/indicator-strategies/) 中的前沿量化策略与 Pine 脚本实战解析，叠加筹码分布与独家增强指标，精准测算入场点与盈亏比。
 5. **深度基本面与产业链核对**：
    - 在 [深度分析](https://chart.nuvexlens.com/signals/analysis) 中查阅全景画像与供应链瓶颈评分。
 6. **历史复盘与直觉打磨**：

@@ -14,7 +14,7 @@
 [![Version](https://img.shields.io/badge/Version-v3.3-green?style=flat-square)](https://nuvexlens.com)
 [![License](https://img.shields.io/badge/License-Commercial-orange?style=flat-square)](https://nuvexlens.com)
 
-[Website](https://nuvexlens.com) · [Chart](https://chart.nuvexlens.com/) · [Signals Hub](https://chart.nuvexlens.com/signals/hub/strategy) · [Quotes](https://nuvexlens.com/quotes/) · [Screener](https://nuvexlens.com/screener/) · [Analysis](https://chart.nuvexlens.com/signals/analysis) · [Docs](https://docs.nuvexlens.com)
+[Website](https://nuvexlens.com) · [Chart](https://chart.nuvexlens.com/) · [Signals Hub](https://chart.nuvexlens.com/signals/hub/strategy) · [Quotes](https://nuvexlens.com/quotes/) · [Screener](https://nuvexlens.com/screener/) · [Analysis](https://chart.nuvexlens.com/signals/analysis) · [Indicators & Strategies](https://docs.nuvexlens.com/indicator-strategies/) · [Docs](https://docs.nuvexlens.com)
 
 </div>
 
@@ -48,12 +48,14 @@ NuvexLens is purpose-built for active traders, quantitative researchers, and fin
      |                 |                   |                 |                 |
      +-----------------+-------------------+-----------------+-----------------+
                                            |
-                   +-----------------------+-----------------------+
-                   |                                               |
-         [ Docs & Help Center ]                           [ TrendRadar News ]
-           docs.nuvexlens.com                              trendradar.nuvexlens.com
-           - 4-language guides                             - 24/7 financial alerts
-           - Curated indicator library                     - Multi-source sentiment
+         +---------------------------------+---------------------------------+
+         |                                 |                                 |
+ [ Indicator Library ]             [ Docs & Help Center ]            [ TrendRadar News ]
+   docs.nuvexlens.com/               docs.nuvexlens.com                trendradar.nuvexlens.com
+   indicator-strategies/             - 4-language guides               - 24/7 financial alerts
+   - Trending & top-rated boards     - Knowledge base curriculum       - Multi-source sentiment
+   - Proprietary metrics & guides    - Shortcuts & fast setup
+   - Open-source compliance
 ```
 
 ---
@@ -67,7 +69,8 @@ NuvexLens is purpose-built for active traders, quantitative researchers, and fin
 | **Market Quotes** | Global market matrices, sector heatmaps, and sentiment dashboards | [Open Quotes](https://nuvexlens.com/quotes/) | Global indices overview, [Sector Treemap Heatmap](https://nuvexlens.com/quotes/heatmap), [Market Sentiment Dashboard](https://nuvexlens.com/quotes/sentiment), and [On-Chain Contracts](https://nuvexlens.com/quotes/onchain-contracts) |
 | **Multi-Market Screener** | Cross-market quantitative screening for CN, HK, US, and Crypto | [Open Screener](https://nuvexlens.com/screener/) | Full universe coverage, hundreds of fundamental & technical criteria, verified preset strategies, and direct one-click chart linkage |
 | **Stock Analysis** | Panoramic asset dossier, technical consensus, and supply-chain research | [Open Analysis](https://chart.nuvexlens.com/signals/analysis) | Instant ticker lookup, multi-timeframe technical ratings, automated support/resistance zones, and Serenity bottleneck scorecards |
-| **Help Center & Docs** | Multi-lingual trading tutorials, curated script library, and guides | [Open Docs](https://docs.nuvexlens.com)<br>[Open Help Center](https://help.nuvexlens.com) | Full support for EN / ZH-CN / ZH-TW / JA, systematic workflows, Curated Indicator Library, tutorials, and comprehensive FAQ |
+| **Indicator & Strategy Library** | Curated open-source & proprietary indicators, dynamic leaderboards, and execution guides | [Open Library](https://docs.nuvexlens.com/indicator-strategies/) | Dynamic trending & top-rated rankings, multi-timeframe execution metrics, Pine source diff viewer, [Proprietary Indicators](https://docs.nuvexlens.com/indicator-strategies/closed-source/), and [Script Usage Guide](https://docs.nuvexlens.com/indicator-strategies/script-usage/) |
+| **Help Center & Docs** | Multi-lingual trading tutorials, knowledge base, and platform manuals | [Open Docs](https://docs.nuvexlens.com)<br>[Open Help Center](https://help.nuvexlens.com) | Full support for EN / ZH-CN / ZH-TW / JA, systematic workflows, tutorials, and comprehensive FAQ |
 | **TrendRadar News** | 24/7 global financial news wire, event calendar, and sentiment radar | [Open TrendRadar](https://trendradar.nuvexlens.com/) | Real-time news aggregation, AI entity tagging, market-moving headlines, and macroeconomic releases |
 
 ---
@@ -132,17 +135,34 @@ NuvexLens is purpose-built for active traders, quantitative researchers, and fin
   - **Automated Structure & Support/Resistance Detection**: Identifies critical institutional liquidity pools, volume profiles, and key Fibonacci reaction zones.
   - **Serenity Supply-Chain & Bottleneck Analysis**: Evaluates upstream/downstream dependencies, market share concentration, critical technological choke-points, and competitive moat strength.
 
-### 6. Help Center & Knowledge Base
+### 6. Indicator & Strategy Library
+- **Direct Link**: [https://docs.nuvexlens.com/indicator-strategies/](https://docs.nuvexlens.com/indicator-strategies/)
+- **Core Sub-Modules & Deep Links**:
+  - **Curated Library Overview & Index**: [https://docs.nuvexlens.com/indicator-strategies/](https://docs.nuvexlens.com/indicator-strategies/)
+  - **Dynamic Trending & Top-Rated Boards**: [https://docs.nuvexlens.com/indicator-strategies/rankings/trending/](https://docs.nuvexlens.com/indicator-strategies/rankings/trending/)
+  - **Proprietary & Enhanced Indicators (Closed Source)**: [https://docs.nuvexlens.com/indicator-strategies/closed-source/](https://docs.nuvexlens.com/indicator-strategies/closed-source/)
+  - **Script Usage & Parameter Setup Guide**: [https://docs.nuvexlens.com/indicator-strategies/script-usage/](https://docs.nuvexlens.com/indicator-strategies/script-usage/)
+- **Key Capabilities & Proprietary Edge**:
+  - **Proprietary Popularity & Momentum Metrics**: Monitors real-time community adoption velocity and activity scores, ranking scripts across "Trending", "Top Rated", and "Editor's Picks" while automatically filtering deprecated or redundant algorithms to surface actionable alpha.
+  - **In-Depth Execution & Application Playbooks**: Goes beyond static source code by providing exhaustive tactical guides—including adaptive parameter tuning across trending vs. ranging markets, multi-timeframe confirmation frameworks, false breakout filters, and stop-loss/take-profit risk models.
+  - **Comprehensive Categorization & Fast Discovery**: Structured into Trend Following, Momentum & Oscillators, Volume & Order Flow Profiles, Volatility Ranges, and Smart Money / Market Structure (SMC / Automated Chanlun Bi-Duan Centers).
+  - **Evolution Tracking & Source Code Diff Viewer**: Enables side-by-side historical version diff comparisons to inspect algorithmic optimizations; provides one-click Pine Script copying and chart injection.
+  - **Proprietary Alpha Enhancements**: Complements open-source classics with in-house proprietary algorithms tailored for domestic and global microstructures, offering enhanced institutional flow tracking and high-probability trigger signals.
+- **Copyright Compliance & Acknowledgements**:
+  - **Origin & Licensing**: All open-source indicator and strategy scripts in this library originate from the **TradingView Open-Source Community**, curated, translated, and presented in strict compliance with TradingView House Rules and respective author open-source licenses (MPL 2.0, Apache 2.0, MIT, GPL, etc.).
+  - **Respect for Intellectual Property**: Every script page prominently attributes the original author, links to the official TradingView publication, and retains original license identifiers and copyright notices.
+  - **Sincere Gratitude**: We express our deepest gratitude to the global Pine Script creator community for their open-source contributions, and to the **[TradingView](https://www.tradingview.com/)** platform for fostering the world's most vibrant and innovative financial charting ecosystem.
+
+### 7. Help Center & Knowledge Base
 - **Direct Link**:
   - Documentation: [https://docs.nuvexlens.com](https://docs.nuvexlens.com)
   - Help Center: [https://help.nuvexlens.com](https://help.nuvexlens.com)
 - **Core Features**:
   - **4-Language Support**: Fully localized in English, Simplified Chinese, Traditional Chinese, and Japanese.
   - **Structured Trading Curriculum**: Step-by-step learning paths progressing from workspace layout and data feeds to quantitative backtesting methodologies and mindset mastery.
-  - **Curated Indicator Library**: Explores classical and proprietary indicator formulas across trend, momentum, volatility, volume, and market structure, accompanied by code explanations and case studies.
   - **Quick Start & Troubleshooting FAQ**: Complete documentation covering account features, cloud preferences synchronization, keyboard shortcuts, and FAQs.
 
-### 7. TrendRadar News
+### 8. TrendRadar News
 - **Direct Link**: [https://trendradar.nuvexlens.com/](https://trendradar.nuvexlens.com/)
 - **Core Features**:
   - **24/7 Global Financial Wire**: Aggregates top-tier financial media, regulatory filings, and market-moving developments.
@@ -174,9 +194,9 @@ NuvexLens is purpose-built for active traders, quantitative researchers, and fin
 3. **Strategy Alignment & Institutional Confirmation**:
    - Verify if targets match active model recommendations on [Signals Hub](https://chart.nuvexlens.com/signals/hub/strategy).
    - Review [Holdings Tracker](https://chart.nuvexlens.com/signals/hub/holdings) to see whether top funds or smart money are accumulating or distributing.
-4. **Execution Timing & Chart Analysis**:
+4. **Execution Timing & Indicator Integration**:
    - Open the candidate in [Smart Chart](https://chart.nuvexlens.com/) to analyze price action across multiple synchronized timeframes.
-   - Overlay Volume Profile and exclusive VIP indicators to define exact entry, take-profit, and stop-loss levels.
+   - Leverage the [Indicator & Strategy Library](https://docs.nuvexlens.com/indicator-strategies/) for state-of-the-art Pine script execution playbooks, combined with Volume Profile and proprietary indicators to calculate precise risk-reward entry points.
 5. **Fundamental & Bottleneck Verification**:
    - Review the panoramic diagnostic on [Stock Analysis](https://chart.nuvexlens.com/signals/analysis) to ensure business fundamentals and moat strength align with your thesis.
 6. **Deliberate Practice & Skill Review**:

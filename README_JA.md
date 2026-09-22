@@ -14,7 +14,7 @@
 [![Version](https://img.shields.io/badge/バージョン-v3.3-green?style=flat-square)](https://nuvexlens.com)
 [![License](https://img.shields.io/badge/ライセンス-Commercial-orange?style=flat-square)](https://nuvexlens.com)
 
-[公式サイト](https://nuvexlens.com) · [チャート](https://chart.nuvexlens.com/) · [シグナルセンター](https://chart.nuvexlens.com/signals/hub/strategy) · [マーケット](https://nuvexlens.com/quotes/) · [スクリーナー](https://nuvexlens.com/screener/) · [詳細分析](https://chart.nuvexlens.com/signals/analysis) · [ドキュメント](https://docs.nuvexlens.com)
+[公式サイト](https://nuvexlens.com) · [チャート](https://chart.nuvexlens.com/) · [シグナルセンター](https://chart.nuvexlens.com/signals/hub/strategy) · [マーケット](https://nuvexlens.com/quotes/) · [スクリーナー](https://nuvexlens.com/screener/) · [詳細分析](https://chart.nuvexlens.com/signals/analysis) · [指標・戦略ライブラリ](https://docs.nuvexlens.com/indicator-strategies/) · [ドキュメント](https://docs.nuvexlens.com)
 
 </div>
 
@@ -48,12 +48,14 @@ NuvexLens はプロのトレーダー、クオンツ投資家、金融学習者�
      |                 |                   |                 |                 |
      +-----------------+-------------------+-----------------+-----------------+
                                            |
-                   +-----------------------+-----------------------+
-                   |                                               |
-         [ ナレッジベースとヘルプ ]                        [ TrendRadar ニュース ]
-           docs.nuvexlens.com                              trendradar.nuvexlens.com
-           - 4言語体系的チュートリアル                     - 24時間365日金融速報
-           - 厳選インジケーターライブラリ                  - マルチソースセンチメント
+         +---------------------------------+---------------------------------+
+         |                                 |                                 |
+ [ 指標・戦略ライブラリ ]          [ ナレッジベースとヘルプ ]        [ TrendRadar ニュース ]
+   docs.nuvexlens.com/               docs.nuvexlens.com                trendradar.nuvexlens.com
+   indicator-strategies/             - 4言語体系的チュートリアル       - 24時間365日金融速報
+   - トレンド＆高評価ランキング      - ナレッジベースと学習フロー      - マルチソースセンチメント
+   - 独自統計と実践ガイド            - ショートカット＆クイック導入
+   - コミュニティOSS準拠
 ```
 
 ---
@@ -67,7 +69,8 @@ NuvexLens はプロのトレーダー、クオンツ投資家、金融学習者�
 | **マーケット相場**<br>Quotes | 世界主要市場の相場マトリクス、セクターヒートマップ、市場心理 | [マーケットを開く](https://nuvexlens.com/quotes/) | 主要指数リスト、[セクターヒートマップ](https://nuvexlens.com/quotes/heatmap)、[市場心理ダッシュボード](https://nuvexlens.com/quotes/sentiment)、[オンチェーン先物データ](https://nuvexlens.com/quotes/onchain-contracts) |
 | **マルチ市場スクリーナー**<br>Screener | A株/香港株/米国株/暗号資産対応の多次元条件スクリーナー | [スクリーナーを開く](https://nuvexlens.com/screener/) | 全市場銘柄カバー、ファンダメンタルズ＆テクニカル複合絞り込み、検証済みプリセット戦略、チャートワンクリック連携 |
 | **銘柄詳細分析**<br>Analysis | 銘柄コード直接入力によるパノラマ診断とテクニカルコンセンサス | [詳細分析を開く](https://chart.nuvexlens.com/signals/analysis) | 多時間枠テクニカルレーティング、クオンツスコアリング、サポート/レジスタンス自動判定、Serenity ボトルネック分析 |
-| **ドキュメント・ヘルプ**<br>Help Center | 多言語対応の取引チュートリアル、インジケーター解説、利用ガイド | [ドキュメントを開く](https://docs.nuvexlens.com)<br>[ヘルプセンターを開く](https://help.nuvexlens.com) | 日/英/簡/繁の4言語対応、実践取引ワークフロー、指標戦略ライブラリ、クイックスタート＆FAQ |
+| **厳選指標・戦略ライブラリ**<br>Indicator & Strategy | オープンソース＆独自開発指標の動的ランキングと実践活用ガイド | [指標ライブラリを開く](https://docs.nuvexlens.com/indicator-strategies/) | 急上昇・人気ランキング、多時間枠実践統計、Pineソース差分比較、[独自強化指標](https://docs.nuvexlens.com/indicator-strategies/closed-source/)、[スクリプト利用ガイド](https://docs.nuvexlens.com/indicator-strategies/script-usage/) |
+| **ドキュメント・ヘルプ**<br>Help Center | 多言語対応の取引チュートリアル、知識体系、利用ガイド | [ドキュメントを開く](https://docs.nuvexlens.com)<br>[ヘルプセンターを開く](https://help.nuvexlens.com) | 日/英/簡/繁の4言語対応、実践取引ワークフロー、クイックスタート＆FAQ |
 | **TrendRadar ニュース**<br>TrendRadar | 24時間365日世界の金融速報、AIセンチメント、市場動向レーダー | [ニュースレーダーを開く](https://trendradar.nuvexlens.com/) | リアルタイム金融ニュース速報、AIエンティティ関連付け、マクロ経済イベントカレンダー |
 
 ---
@@ -125,17 +128,34 @@ NuvexLens はプロのトレーダー、クオンツ投資家、金融学習者�
   - **重要価格帯の自動検出**: 出来高プロファイルとフィボナッチに基づく主要サポート/レジスタンスラインの自動描画。
   - **Serenity サプライチェーン評価**: 産業構造におけるチョークポイントと競争上の優位性（モート）を分析。
 
-### 6. ドキュメント・ヘルプセンター (Help Center & Docs)
+### 6. 厳選指標・戦略ライブラリ (Indicator & Strategy Library)
+- **直通リンク**: [https://docs.nuvexlens.com/indicator-strategies/](https://docs.nuvexlens.com/indicator-strategies/)
+- **主要サブモジュールとリンク**:
+  - **指標ライブラリ一覧＆分類インデックス**: [https://docs.nuvexlens.com/indicator-strategies/](https://docs.nuvexlens.com/indicator-strategies/)
+  - **急上昇＆高評価動的ランキング**: [https://docs.nuvexlens.com/indicator-strategies/rankings/trending/](https://docs.nuvexlens.com/indicator-strategies/rankings/trending/)
+  - **独自開発・強化指標 (クローズドソース)**: [https://docs.nuvexlens.com/indicator-strategies/closed-source/](https://docs.nuvexlens.com/indicator-strategies/closed-source/)
+  - **スクリプト利用＆パラメータ設定ガイド**: [https://docs.nuvexlens.com/indicator-strategies/script-usage/](https://docs.nuvexlens.com/indicator-strategies/script-usage/)
+- **主な特徴と独自統計**:
+  - **独自の人気度＆トレンド動的統計**: コミュニティ全体でのスクリプト利用動向と勢いを追跡し、「急上昇 (Trending)」「最高評価 (Top Rated)」「編集部おすすめ (Editor's Picks)」などの多次元ランキングを提供。非推奨・陳腐化スクリプトを自動フィルタリングし、高品質なクオンツロジックを抽出。
+  - **実践的な運用手法の詳細解説**: コードの提示にとどまらず、トレンド相場とレンジ相場でのパラメータ適応指針、多時間枠コンセンサス検証、ダマシ回避ルール、リスク管理と利確損切り連携など、実践的な活用法を徹底解説。
+  - **体系的カテゴリ分類とスマート検索**: トレンド追従 (Trend)、モメンタムオシレーター (Momentum)、出来高・プロファイル (Volume Profile)、ボラティリティ (Volatility)、スマートマネー・市場構造 (SMC / 纏論自動描画) などの主要領域を完全網羅。
+  - **バージョン進化履歴とソースコード Diff 比較**: 指標の過去バージョン差分 (Diff) をオンラインで確認でき、アルゴリズムの改良軌跡を容易に把握可能。Pine スクリプトのワンクリックコピーとチャートへの即時導入に対応。
+  - **独自開発の高度な強化指標**: オープンソースの古典的指標に加え、国内外の市場特性に合わせて独自開発したプロプライエタリ指標を融合。大口資金の動向検知とエントリー精度の向上を実現。
+- **著作権コンプライアンスと謝辞**:
+  - **出典と規約遵守**: 本モジュールに収録されているオープンソースのインジケーターおよび戦略は、すべて **TradingView オープンソースコミュニティ** に由来し、TradingView コミュニティ公開規約 (House Rules) および原作者が定めたオープンソースライセンス (MPL 2.0、Apache 2.0、MIT、GPL など) に厳格に準拠して整理・翻訳・表示されています。
+  - **知的財産の尊重**: すべての指標ページにおいて、原作者名、TradingView 公式の元記事リンク、バージョン番号、オープンソースライセンスを明示し、原作者の著作者人格権および著作権を尊重しています。
+  - **作者とプラットフォームへの感謝**: 貴重なクオンツ資産を惜しみなく共有してくださっているコミュニティの Pine スクリプト開発者各位、そして世界最高峰の金融分析エコシステムを提供し続ける **[TradingView](https://www.tradingview.com/)** プラットフォームに心より深甚なる敬意と感謝の意を表します。
+
+### 7. ドキュメント・ヘルプセンター (Help Center & Docs)
 - **直通リンク**:
   - ドキュメント: [https://docs.nuvexlens.com](https://docs.nuvexlens.com)
   - ヘルプセンター: [https://help.nuvexlens.com](https://help.nuvexlens.com)
 - **主な特徴**:
   - **4言語完全対応**: 日本語、英語、簡体字中国語、繁体字中国語に対応。
   - **体系的なトレーディング学習コース**: 初期設定からデータ構造、高度なPineプログラミング、クオンツ検証手法まで網羅。
-  - **厳選インジケーターライブラリ**: トレンド、モメンタム、ボラティリティなどの主要スクリプトのアルゴリズムと実践的な活用法を解説。
   - **よくある質問 (FAQ)**: アカウント設定、クラウド同期、ショートカットキー一覧などを完備。
 
-### 7. TrendRadar ニュース (TrendRadar)
+### 8. TrendRadar ニュース (TrendRadar)
 - **直通リンク**: [https://trendradar.nuvexlens.com/](https://trendradar.nuvexlens.com/)
 - **主な特徴**:
   - **24時間365日世界の金融ニュース配信**: 主要金融メディアや公的発表をリアルタイムに集約。
@@ -167,9 +187,9 @@ NuvexLens はプロのトレーダー、クオンツ投資家、金融学習者�
 3. **シグナル検証と機関保有動向の確認**:
    - [シグナルセンター](https://chart.nuvexlens.com/signals/hub/strategy) でクオンツ戦略との適合性と過去勝率を確認。
    - [機関保有追跡](https://chart.nuvexlens.com/signals/hub/holdings) で大口ファンドの保有変化をチェック。
-4. **チャート分析とエントリータイミングの決定**:
+4. **チャート分析と指標の連携検証**:
    - [スマートチャート](https://chart.nuvexlens.com/) で複数時間枠のチャートを同時に確認。
-   - 出来高プロファイルやVIPインジケーターを用いてエントリー、利確、損切りの水準を明確化。
+   - [厳選指標・戦略ライブラリ](https://docs.nuvexlens.com/indicator-strategies/) の実践ガイドや Pine スクリプトを活用し、出来高プロファイルや独自強化指標を組み合わせて精密なリスクリワードとエントリー水準を特定。
 5. **ファンダメンタルズと企業競争力の検証**:
    - [銘柄詳細分析](https://chart.nuvexlens.com/signals/analysis) でサプライチェーンと堀（Moat）の強さを確認。
 6. **リプレイトレーニングによる検証**:
