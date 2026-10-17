@@ -16,7 +16,7 @@ An engineering showcase for personal quantitative research across multi-market c
 
 ---
 
-> **Project scope:** NuvexLens is a personal quantitative research and engineering workbench, not a commercial SaaS product, paid signal service, investment adviser, broker, or execution venue. This repository is a public architecture showcase with selected, sanitized material. Core model logic, credentials, personal data, production configuration, and source-specific pipeline details are kept in private environments.
+> **Project scope:** NuvexLens is a personal quantitative research and engineering workbench, not a commercial SaaS product, paid signal service, investment adviser, broker, or execution venue. This public repository documents a selected, non-sensitive view of the project's architecture and developer-facing interfaces. Core model logic, credentials, personal data, production configuration, and source-specific pipeline details are kept in private environments.
 
 ## Overview
 
@@ -50,18 +50,18 @@ This is a logical overview, not a deployment diagram. It omits provider endpoint
 
 ### Research data workflows
 
-- Normalize market, regulatory-filing, event, and news inputs for research use.
-- Preserve the distinction between source data, derived observations, and evaluation results.
-- Keep source-specific adapters, private schemas, feature definitions, and factor weights out of this showcase.
+- Market, regulatory-filing, event, and news inputs are normalized for research workflows.
+- Source data, derived observations, and evaluation results are treated as distinct layers.
+- Source-specific adapters, private schemas, feature definitions, and factor weights are intentionally excluded from this public showcase.
 
 ### Script experimentation
 
-- Parse and translate Pine-compatible scripts for an isolated execution path.
-- Keep proprietary indicator logic and production execution details private.
+- Pine-compatible scripts are parsed and translated for an isolated execution path.
+- Proprietary indicator logic and production execution details remain private.
 
 ### Historical evaluation and shadow-mode observation
 
-- Review hypotheses against time-aligned historical samples and forward-tracked observations. Strict Point-in-Time integrity still requires checking when each source became available and how it was revised.
+- Research hypotheses are evaluated against time-aligned historical samples and forward-tracked observations. Strict Point-in-Time integrity still requires checking when each source became available and how it was revised.
 - Shadow Mode, as a research method, compares subsequent observations with pre-recorded hypotheses without placing real orders. This showcase alone does not establish a deployed shadow evaluator, audited live results, or out-of-sample validity.
 - Backtests, simulations, and shadow observations are research evidence, not promises of future performance.
 
