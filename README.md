@@ -62,7 +62,7 @@ This is a logical overview, not a deployment diagram. It omits provider endpoint
 ### Historical evaluation and shadow-mode observation
 
 - Review hypotheses against time-aligned historical samples and forward-tracked observations. Strict Point-in-Time integrity still requires checking when each source became available and how it was revised.
-- Shadow Mode records forward observations for comparison without submitting real orders. Shadow observations are not audited live trading results or proof of out-of-sample validity.
+- Shadow Mode, as a research method, compares subsequent observations with pre-recorded hypotheses without placing real orders. This showcase alone does not establish a deployed shadow evaluator, audited live results, or out-of-sample validity.
 - Backtests, simulations, and shadow observations are research evidence, not promises of future performance.
 
 ### Automation and developer interfaces
