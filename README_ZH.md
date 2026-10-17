@@ -8,7 +8,7 @@
 
 ### 个人量化研究工作台
 
-面向个人量化研究流程的工程工作台，涵盖多市场图表、历史回放、行情数据研究与脚本实验。
+面向个人量化研究流程的工程展示（Showcase），涵盖多市场图表、双盲回放、研究数据工程与开发者工具链。
 
 [项目主页](https://nuvexlens.com) · [图表与回放](https://chart.nuvexlens.com/) · [文档](https://docs.nuvexlens.com)
 
@@ -30,6 +30,8 @@ flowchart LR
     Ingest --> Research[按时间对齐的研究记录]
     Research --> Chart[图表与历史回放]
     Research --> Screen[筛选与诊断]
+    Research --> Snapshot[已发布的研究快照]
+    Snapshot --> Interfaces[只读 API / Webhook / SDK / MCP]
     Scripts[Pine 兼容脚本] --> Sandbox[解析与隔离执行]
     Sandbox --> Workspace[个人研究工作台]
     Chart --> Workspace
@@ -57,14 +59,21 @@ flowchart LR
 - 解析并转换 Pine 兼容脚本，交由隔离执行链路运行。
 - 专有指标逻辑和生产执行细节保留在私有环境。
 
-### 历史评估
+### 历史评估与影子验证（Shadow Mode）
 
-- 使用历史数据和跟踪结果复核研究假设。
-- 回测与模拟结果属于研究证据，不构成未来表现承诺。
+- 使用按时间对齐的历史样本与后续跟踪记录复核研究假设；严格的 Point-in-Time 一致性仍需逐项核对数据的实际可用时点与修订记录。
+- 影子模式用于不提交真实订单的前向观察与研究结果对照。影子观察不等于经审计的实盘业绩，也不自动证明样本外有效性。
+- 回测、模拟和影子观察属于研究证据，不构成未来表现承诺。
+
+### 自动化与开发者接口
+
+- **最小权限与只读快照**：通过范围受限的 API Key 与 [OpenAPI 3.1 只读接口](https://docs.nuvexlens.com/tutorials/distribution-openapi/)读取已发布的研究快照；[Webhook](https://docs.nuvexlens.com/tutorials/distribution-webhook/) 采用 HMAC-SHA256 签名验签和事件 ID 去重约定，用于通知与归档工作流。
+- **AI Agent 与本地工具链**：提供 [`llms.txt` 接口索引](https://docs.nuvexlens.com/tutorials/distribution-llms/)、隔离环境 Python SDK、本地 stdio MCP 和远程 OAuth MCP，便于授权研究脚本及 Agent 读取资料。接入方式见[开发者文档](https://docs.nuvexlens.com/tutorials/distribution-developer/)；这些接口不提供真实交易执行。
+- **访问边界**：相关功能仅面向获授权的受邀用户；实际可读范围取决于账户状态、授予的权限及开放模块。文档公开不等于匿名访问或自动获得接口权限。
 
 ## 公开仓库范围
 
-本仓库仅展示项目说明、概念架构和经过筛选及脱敏的演示材料。新增截图或录屏前，应清除账号标识、个人自选列表、私有持仓、会话信息及其他非公开数据。
+本仓库目前仅包含项目说明、概念架构和项目标志，不公开真实账户标识、个人自选组合、私有持仓、会话信息、生产配置或核心策略实现。公开内容用于说明工程设计，不是完整应用源码。
 
 本仓库当前没有统一适用于所有内容的开源代码许可证。仓库公开可见不等于授予复用许可；第三方组件与脚本仍受各自条款和许可证约束。
 
